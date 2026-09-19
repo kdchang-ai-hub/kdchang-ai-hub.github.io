@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=KD LABs linking to https://labs.kdchang.com"
   },
   "copyright": {
-    "message": "Copyright © 2026 KD AI Hub. Built by <a target=\"_blank\" href=\"https://www.kdchang.com\">KD Chang</a> in Taiwan.",
+    "message": "Copyright © 2026 KD AI Hub 自學 AI 補給站. Built by <a target=\"_blank\" href=\"https://www.kdchang.com\">KD Chang</a> in Taiwan.",
     "description": "The footer copyright"
   }
 }
