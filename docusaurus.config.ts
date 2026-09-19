@@ -13,7 +13,7 @@ const isEn = currentLocale === "en";
 const config: Config = {
   title: isEn
     ? "KD AI Hub - The friendliest AI self-learning platform for everyone"
-    : "KD AI Hub 自學 AI 補給站",
+    : "KD AI Hub | AI 自學補給站",
   tagline: isEn
     ? "You don't need to code to get really good at AI. A learning roadmap of AI tools, prompts and workflows, starting from zero."
     : "你不用會寫程式，也能把 AI 用得很好。從零開始的 AI 工具、提示詞、Vibe Coding 與工作流學習地圖和學習資源整理。",
@@ -135,9 +135,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "KD AI Hub 自學 AI 補給站",
+      title: "KD AI Hub | AI 自學補給站",
       logo: {
-        alt: "KD AI Hub 自學 AI 補給站 - 最新手友善的 AI 自學平台 Logo",
+        alt: "KD AI Hub | AI 自學補給站 - 最新手友善的 AI 自學平台 Logo",
         src: "img/icon-512.png",
       },
       items: [
