@@ -6,7 +6,7 @@ image: https://ai.kdchang.com/img/icon-512.png
 
 # 關於 KD AI Hub | AI 自學補給站
 
-> 不用會寫程式，也能把 AI 用得很好。
+> 不用程式背景，也能把 AI 用得很好。
 
 ## 為什麼做這個站
 
