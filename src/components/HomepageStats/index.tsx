@@ -29,8 +29,8 @@ const stats: StatItem[] = [
     icon: "wrench",
   },
   {
-    number: "100%",
-    label: translate({ id: "home.stats.free", message: "免費中文內容" }),
+    number: "20+",
+    label: translate({ id: "home.stats.free", message: "學習資源" }),
     icon: "check",
   },
 ];

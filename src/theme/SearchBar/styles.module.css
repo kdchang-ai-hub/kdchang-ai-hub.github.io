@@ -1,0 +1,126 @@
+/* ── Navbar trigger ───────────────────────────────────── */
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  height: 2rem;
+  padding: 0 0.6rem;
+  margin-left: 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--ifm-global-radius);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.trigger:hover {
+  border-color: var(--border-strong);
+  color: var(--text-secondary);
+}
+
+.triggerLabel {
+  padding-right: 1.5rem;
+}
+
+.triggerKeys {
+  display: flex;
+  gap: 2px;
+}
+
+.triggerKeys kbd {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  box-shadow: none;
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 0.7rem;
+  line-height: 1.1;
+  padding: 0.1rem 0.28rem;
+}
+
+/* Icon-only button on narrow screens */
+@media (max-width: 996px) {
+  .trigger {
+    width: 2rem;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .triggerLabel,
+  .triggerKeys {
+    display: none;
+  }
+}
+
+/* ── Dialog ───────────────────────────────────────────── */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--ifm-z-index-fixed) + 10);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5rem 1rem 2rem;
+  background: rgba(0, 0, 0, 0.62);
+}
+
+.panel {
+  width: 100%;
+  max-width: 620px;
+  max-height: calc(100vh - 7rem);
+  overflow-y: auto;
+  padding: 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+
+  /* Variables the plugin exposes: let its dropdown fill the dialog and drop
+     its own card styling, since the dialog already provides the surface. */
+  --search-local-modal-width: 100%;
+  --search-local-modal-width-sm: 100%;
+  --search-local-modal-background: transparent;
+  --search-local-modal-shadow: none;
+  --search-local-hit-background: var(--ifm-background-color);
+  --search-local-hit-shadow: none;
+  --search-local-hit-height: 48px;
+}
+
+.panel :global(.navbar__search) {
+  display: block;
+}
+
+.panel [class*="searchBarContainer"] {
+  margin-left: 0;
+}
+
+/* Full-width input; the `:not(:focus)` rule beats the plugin's own mobile rule
+   that shrinks the input back down to an icon below 576px. */
+.panel :global(.navbar__search-input),
+.panel :global(.navbar__search-input):not(:focus) {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 0.95rem;
+  background-color: var(--ifm-background-color);
+  border-color: var(--border-strong);
+}
+
+.panel [class*="dropdownMenu"] {
+  padding: 0.75rem 0 0;
+  margin-top: 0;
+}
+
+@media (max-width: 576px) {
+  .backdrop {
+    padding: 3.5rem 0.75rem 1rem;
+  }
+
+  .panel {
+    max-height: calc(100vh - 4.5rem);
+  }
+}

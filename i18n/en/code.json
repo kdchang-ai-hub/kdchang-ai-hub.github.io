@@ -634,5 +634,9 @@
   },
   "roadmap.principle4.text": {
     "message": "AI handles drafts and speed; you handle facts and responsibility. Your name is on it, so verifying is your job too."
+  },
+  "navbar.search.label": {
+    "message": "Search",
+    "description": "The label of the navbar search button"
   }
 }

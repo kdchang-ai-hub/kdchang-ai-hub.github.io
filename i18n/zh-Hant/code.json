@@ -1,0 +1,26 @@
+{
+  "theme.SearchBar.label": {
+    "message": "搜尋",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "沒有找到結果",
+    "description": "The text shown when no search results are found"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看所有結果",
+    "description": "The label of the link to the full search page"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "「{query}」的搜尋結果",
+    "description": "The search page title for a non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜尋本站",
+    "description": "The search page title for an empty query"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "沒有找到結果",
+    "description": "The paragraph for empty search result"
+  }
+}

@@ -13,7 +13,7 @@ const isEn = currentLocale === "en";
 const config: Config = {
   title: isEn
     ? "KD AI Hub - The friendliest AI self-learning platform for everyone"
-    : "KD AI Hub - 最新手友善的 AI 自學平台",
+    : "KD AI Hub｜AI 自學補給站",
   tagline: isEn
     ? "You don't need to code to get really good at AI. A learning roadmap of AI tools, prompts and workflows, starting from zero."
     : "你不用會寫程式，也能把 AI 用得很好。從零開始的 AI 工具、提示詞、Vibe Coding 與工作流學習地圖和學習資源整理。",
@@ -111,6 +111,10 @@ const config: Config = {
         // docs route base path
         docsRouteBasePath: "/resources",
         blogRouteBasePath: "/blog",
+        // The search bar is wrapped in a dialog by src/theme/SearchBar, which
+        // owns the Cmd/Ctrl+K shortcut and its hint.
+        searchBarShortcut: false,
+        searchBarShortcutHint: false,
       },
     ],
   ],
@@ -131,9 +135,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "KD AI Hub",
+      title: "AI Hub｜AI 自學補給站",
       logo: {
-        alt: "KD AI Hub - 最友善的 AI 自學平台 Logo",
+        alt: "AI Hub｜AI 自學補給站 - 最友善的 AI 自學平台 Logo",
         src: "img/icon-512.png",
       },
       items: [
@@ -189,7 +193,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} KD AI Hub. Built with ❤️ by <a target="_blank" href="https://www.kdchang.com">KD Chang</a> in Taiwan.`,
+      copyright: `Copyright © ${new Date().getFullYear()} KD AI Hub｜AI 自學補給站. Built with ❤️ by <a target="_blank" href="https://www.kdchang.com">KD Chang</a> in Taiwan.`,
     },
     prism: {
       theme: prismThemes.github,

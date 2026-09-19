@@ -20,7 +20,7 @@ function HomepageHeader() {
         </span>
 
         <h1 className={styles.heroTitle}>
-          <Translate id="home.hero.title.line1">不用會寫程式</Translate>
+          <Translate id="home.hero.title.line1">不用程式背景</Translate>
           <br />
           <Translate id="home.hero.title.line2">也能把 AI 用得很好</Translate>
         </h1>
@@ -28,8 +28,8 @@ function HomepageHeader() {
         <p className={styles.heroSubtitle}>
           <Translate id="home.hero.subtitle">
             從基礎觀念、工具挑選、
-            提示詞模板到工作流自動化，照著學習地圖走，一步一步把 AI
-            變成你的日常工具。
+            提示詞模板到工作流自動化再到 Vibe Coding。照著學習地圖走，一步一步把 AI
+            變成你的日常工具
           </Translate>
         </p>
 

@@ -55,6 +55,11 @@
   --ifm-font-color-base: #ccd2d9;
   --ifm-table-border-color: var(--border);
   --ifm-table-stripe-background: rgba(255, 255, 255, 0.02);
+
+  /* Infima paints the navbar magnifier as the search input's background-image,
+     so its colour can only be set through this variable. Matches the stroke
+     style of src/components/Icon. */
+  --ifm-navbar-search-input-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237a828c' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m16.5 16.5 4.5 4.5'/%3E%3C/svg%3E");
 }
 
 [data-theme="dark"] body {
@@ -91,7 +96,10 @@
 }
 
 [data-theme="dark"] .navbar__search-input {
-  background: var(--surface);
+  /* background-color, never the `background` shorthand: the shorthand resets
+     background-image and the magnifier disappears — which on mobile leaves an
+     empty box, because the collapsed search button IS that icon. */
+  background-color: var(--surface);
   border: 1px solid var(--border);
   color: var(--text-primary);
   border-radius: var(--ifm-global-radius);
