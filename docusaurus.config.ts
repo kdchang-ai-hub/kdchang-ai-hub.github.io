@@ -135,9 +135,9 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "AI Hub｜AI 自學補給站",
+      title: "KD AI Hub｜AI 自學補給站",
       logo: {
-        alt: "AI Hub｜AI 自學補給站 - 最友善的 AI 自學平台 Logo",
+        alt: "KD AI Hub｜AI 自學補給站 - 最友善的 AI 自學平台 Logo",
         src: "img/icon-512.png",
       },
       items: [
