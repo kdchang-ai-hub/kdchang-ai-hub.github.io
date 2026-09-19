@@ -1,0 +1,264 @@
+/**
+ * Global styles. Infima ships with the classic preset; everything below
+ * narrows it down to a quiet, content-first dark UI:
+ * flat surfaces, one-pixel borders, no gradients, no glow, no motion.
+ */
+
+/* =====================================================
+   DESIGN TOKENS
+   ===================================================== */
+:root {
+  --ifm-color-primary: #2f9b95;
+  --ifm-color-primary-dark: #2a8c87;
+  --ifm-color-primary-darker: #278480;
+  --ifm-color-primary-darkest: #206d69;
+  --ifm-color-primary-light: #34aaa3;
+  --ifm-color-primary-lighter: #37b2ab;
+  --ifm-color-primary-lightest: #4ec5be;
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-global-radius: 6px;
+  --ifm-navbar-shadow: none;
+
+  /* Neutral surface scale */
+  --surface: #14171b;
+  --surface-hover: #191d22;
+  --border: #242930;
+  --border-strong: #323942;
+  --text-primary: #e9ebee;
+  --text-secondary: #aab2bb;
+  --text-muted: #7a828c;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #4fb8b1;
+  --ifm-color-primary-dark: #45a9a2;
+  --ifm-color-primary-darker: #3d9993;
+  --ifm-color-primary-darkest: #327f7a;
+  --ifm-color-primary-light: #66c4be;
+  --ifm-color-primary-lighter: #83d0cb;
+  --ifm-color-primary-lightest: #a9dedb;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.06);
+
+  --ifm-background-color: #0c0e11;
+  --ifm-background-surface-color: #14171b;
+  --ifm-navbar-background-color: #0c0e11;
+  --ifm-footer-background-color: #0a0c0f;
+  --ifm-toc-border-color: var(--border);
+  --ifm-hr-border-color: var(--border);
+  --ifm-heading-color: var(--text-primary);
+  --ifm-font-color-base: #ccd2d9;
+  --ifm-table-border-color: var(--border);
+  --ifm-table-stripe-background: rgba(255, 255, 255, 0.02);
+}
+
+[data-theme="dark"] body {
+  background: var(--ifm-background-color);
+}
+
+/* =====================================================
+   NAVBAR
+   ===================================================== */
+[data-theme="dark"] .navbar {
+  background: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+}
+
+[data-theme="dark"] .navbar__title {
+  color: var(--text-primary);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+[data-theme="dark"] .navbar__link {
+  color: var(--text-secondary);
+  font-weight: 450;
+  font-size: 0.925rem;
+}
+
+[data-theme="dark"] .navbar__link:hover {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+[data-theme="dark"] .navbar__search-input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: var(--ifm-global-radius);
+}
+
+[data-theme="dark"] .navbar__search-input:focus {
+  border-color: var(--border-strong);
+  outline: none;
+}
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+[data-theme="dark"] .footer {
+  background: var(--ifm-footer-background-color);
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 3rem 0 2rem;
+}
+
+.footer__title {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.footer__link-item {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footer__link-item:hover {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+[data-theme="dark"] .footer__bottom {
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* =====================================================
+   DOCS & BLOG CONTENT
+   ===================================================== */
+[data-theme="dark"] .markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+[data-theme="dark"] .markdown a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  letter-spacing: -0.012em;
+}
+
+.markdown h2 {
+  scroll-margin-top: 5rem;
+  margin-top: 2.5rem;
+}
+
+[data-theme="dark"] .pagination-nav__link {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--ifm-global-radius);
+}
+
+[data-theme="dark"] .pagination-nav__link:hover {
+  border-color: var(--border-strong);
+  background: var(--surface-hover);
+}
+
+/* =====================================================
+   SIDEBAR / TOC / BREADCRUMBS
+   ===================================================== */
+[data-theme="dark"] .theme-doc-sidebar-container {
+  border-right: 1px solid var(--border);
+  background: transparent;
+}
+
+[data-theme="dark"] .menu__link {
+  font-size: 0.9rem;
+  font-weight: 450;
+  border-radius: var(--ifm-global-radius);
+}
+
+[data-theme="dark"] .menu__link--active {
+  background: var(--surface-hover);
+  color: var(--ifm-color-primary);
+}
+
+[data-theme="dark"] .menu__link:hover {
+  background: var(--surface);
+}
+
+[data-theme="dark"] .table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+}
+
+[data-theme="dark"] .breadcrumbs__item--active .breadcrumbs__link {
+  background: var(--surface-hover);
+  color: var(--text-primary);
+}
+
+/* Admonitions sit on the same flat surface as everything else */
+[data-theme="dark"] .theme-admonition {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left-width: 3px;
+  border-radius: var(--ifm-global-radius);
+  box-shadow: none;
+}
+
+/* Tables — used heavily by the tool comparison pages */
+[data-theme="dark"] .markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+[data-theme="dark"] .markdown table thead tr {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border-strong);
+}
+
+[data-theme="dark"] .markdown table th {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .markdown table tr {
+  background: transparent;
+  border-top: 1px solid var(--border);
+}
+
+[data-theme="dark"] .markdown table tr:nth-child(2n) {
+  background: rgba(255, 255, 255, 0.015);
+}
+
+/* =====================================================
+   BLOG
+   ===================================================== */
+.blog-list-page article h2 {
+  font-size: 1.6rem !important;
+  line-height: 1.4;
+  letter-spacing: -0.012em;
+}
+
+.blog-post-page article header h1 {
+  font-size: clamp(1.5rem, 3.5vw, 2rem) !important;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-list-page article h2 {
+    font-size: 1.35rem !important;
+  }
+}

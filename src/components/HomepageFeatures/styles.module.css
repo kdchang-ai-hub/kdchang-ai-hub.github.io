@@ -1,0 +1,118 @@
+/* =====================================================
+   FEATURES — six topic cards
+   ===================================================== */
+.features {
+  padding: 4.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.sectionEyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.45rem, 2.6vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+}
+
+.sectionSubtitle {
+  color: var(--text-secondary);
+  font-size: 0.96rem;
+  line-height: 1.75;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.featureCol {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.featureCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.75rem 1.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.featureCard:hover {
+  border-color: var(--border-strong);
+  background: var(--surface-hover);
+}
+
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.1rem;
+}
+
+.featureTitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.featureDesc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0;
+  text-align: left;
+}
+
+.featureLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 1.1rem;
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.featureLink:hover {
+  color: var(--ifm-color-primary-light);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .features {
+    padding: 3.5rem 0;
+  }
+
+  .featureCard {
+    padding: 1.5rem 1.35rem;
+  }
+}

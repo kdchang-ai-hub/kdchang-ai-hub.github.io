@@ -1,0 +1,66 @@
+{
+  "link.title.開始學習": {
+    "message": "Start Learning",
+    "description": "The title of the footer links column with title=開始學習 in the footer"
+  },
+  "link.title.熱門主題": {
+    "message": "Popular Topics",
+    "description": "The title of the footer links column with title=熱門主題 in the footer"
+  },
+  "link.title.關於": {
+    "message": "About",
+    "description": "The title of the footer links column with title=關於 in the footer"
+  },
+  "link.item.label.新手起步": {
+    "message": "Get Started",
+    "description": "The label of footer link with label=新手起步 linking to /start"
+  },
+  "link.item.label.學習地圖": {
+    "message": "Roadmap",
+    "description": "The label of footer link with label=學習地圖 linking to /roadmap"
+  },
+  "link.item.label.學習資源": {
+    "message": "Resources",
+    "description": "The label of footer link with label=學習資源 linking to /resources"
+  },
+  "link.item.label.名詞速查": {
+    "message": "Glossary",
+    "description": "The label of footer link with label=名詞速查 linking to /resources/glossary"
+  },
+  "link.item.label.AI 工具圖鑑": {
+    "message": "AI Tool Guide",
+    "description": "The label of footer link with label=AI 工具圖鑑 linking to /resources/ai-tools"
+  },
+  "link.item.label.提示詞庫": {
+    "message": "Prompt Library",
+    "description": "The label of footer link with label=提示詞庫 linking to /resources/prompts"
+  },
+  "link.item.label.職場應用": {
+    "message": "Work Use Cases",
+    "description": "The label of footer link with label=職場應用 linking to /resources/use-cases"
+  },
+  "link.item.label.最新文章": {
+    "message": "Blog",
+    "description": "The label of footer link with label=最新文章 linking to /blog"
+  },
+  "link.item.label.關於本站": {
+    "message": "About",
+    "description": "The label of footer link with label=關於本站 linking to /about"
+  },
+  "link.item.label.隱私權政策": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=隱私權政策 linking to /privacy"
+  },
+  "link.item.label.Contact Us": {
+    "message": "Contact Us",
+    "description": "The label of footer link with label=Contact Us linking to mailto:kdchang.labs@gmail.com"
+  },
+  "link.item.label.KD LABs": {
+    "message": "KD LABs",
+    "description": "The label of footer link with label=KD LABs linking to https://labs.kdchang.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 KD AI Hub. Built by <a target=\"_blank\" href=\"https://www.kdchang.com\">KD Chang</a> in Taiwan.",
+    "description": "The footer copyright"
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "home.hero.badge": {
+    "message": "AI literacy for everyone · 100% free"
+  },
+  "home.hero.title.line1": {
+    "message": "You don't need to code"
+  },
+  "home.hero.title.line2": {
+    "message": "to get really good at AI"
+  },
+  "home.hero.subtitle": {
+    "message": "KD AI Hub reorganises AI for people with no technical background: from core concepts and choosing tools to prompt templates and workflow automation. Follow the roadmap and turn AI into an everyday tool, one step at a time."
+  },
+  "home.hero.cta.primary": {
+    "message": "I'm new — start here"
+  },
+  "home.hero.cta.secondary": {
+    "message": "See the roadmap"
+  },
+  "home.cta.badge": {
+    "message": "Next step"
+  },
+  "home.cta.title": {
+    "message": "Pick one thing today and hand it to AI"
+  },
+  "home.cta.subtitle": {
+    "message": "The fastest way to learn AI isn't finishing every tutorial — it's picking one annoying task you repeat every week and letting AI do it once. Start with Getting Started and you'll have your first result in 20 minutes."
+  },
+  "home.cta.primary": {
+    "message": "Start the 20-minute guide"
+  },
+  "home.cta.secondary": {
+    "message": "Browse all resources"
+  },
+  "home.stats.topics": {
+    "message": "Learning topics"
+  },
+  "home.stats.stages": {
+    "message": "Roadmap stages"
+  },
+  "home.stats.toolsAndPrompts": {
+    "message": "AI tools & prompts"
+  },
+  "home.stats.free": {
+    "message": "Free content"
+  },
+  "home.roadmap.badge": {
+    "message": "Learning roadmap"
+  },
+  "home.roadmap.title": {
+    "message": "Three stages, from zero to using AI in daily work"
+  },
+  "home.roadmap.subtitle": {
+    "message": "You don't have to learn it all at once. Follow the order — every stage says exactly what you'll be able to do when you finish"
+  },
+  "home.roadmap.stageLink": {
+    "message": "Enter this stage"
+  },
+  "home.roadmap.viewFull": {
+    "message": "View the full roadmap"
+  },
+  "home.roadmap.stage1.title": {
+    "message": "Understand it, dare to ask"
+  },
+  "home.roadmap.stage1.duration": {
+    "message": "Weeks 1–2"
+  },
+  "home.roadmap.stage1.summary": {
+    "message": "Build an accurate mental model first: know what AI can and cannot do."
+  },
+  "home.roadmap.stage1.item1": {
+    "message": "Sign up for one main AI assistant (ChatGPT, Claude or Gemini)"
+  },
+  "home.roadmap.stage1.item2": {
+    "message": "Understand what a large language model does and why it gets things wrong"
+  },
+  "home.roadmap.stage1.item3": {
+    "message": "Learn to turn a one-line request into a full task description"
+  },
+  "home.roadmap.stage1.item4": {
+    "message": "Set your own data safety line: what you will never paste"
+  },
+  "home.roadmap.stage2.title": {
+    "message": "Use it fluently, save real time"
+  },
+  "home.roadmap.stage2.duration": {
+    "message": "Weeks 3–8"
+  },
+  "home.roadmap.stage2.summary": {
+    "message": "Put AI into the work you actually do every day, so the time you save becomes visible."
+  },
+  "home.roadmap.stage2.item1": {
+    "message": "Build 5–10 prompt templates for your own job"
+  },
+  "home.roadmap.stage2.item2": {
+    "message": "Learn to upload files, read long documents and organise data"
+  },
+  "home.roadmap.stage2.item3": {
+    "message": "Tell which tasks suit AI and which you should do yourself"
+  },
+  "home.roadmap.stage2.item4": {
+    "message": "Build a checking habit: how to verify what AI tells you"
+  },
+  "home.roadmap.stage3.title": {
+    "message": "Build workflows, scale your output"
+  },
+  "home.roadmap.stage3.duration": {
+    "message": "Week 9 onwards"
+  },
+  "home.roadmap.stage3.summary": {
+    "message": "Go from asking one question at a time to a workflow that runs itself."
+  },
+  "home.roadmap.stage3.item1": {
+    "message": "Build a personal knowledge base so AI answers from your own material"
+  },
+  "home.roadmap.stage3.item2": {
+    "message": "Get to know agents and automation tools, and hand off repetitive work"
+  },
+  "home.roadmap.stage3.item3": {
+    "message": "Build small tools without coding (intro to vibe coding)"
+  },
+  "home.roadmap.stage3.item4": {
+    "message": "Roll it out to your team: process, guidelines and training"
+  },
+  "home.features.badge": {
+    "message": "What's here"
+  },
+  "home.features.title": {
+    "message": "Six topics that take AI from \"heard of it\" to \"use it daily\""
+  },
+  "home.features.subtitle": {
+    "message": "All free, and all rewritten from scratch for people without a technical background"
+  },
+  "home.features.tools.title": {
+    "message": "AI tool guide"
+  },
+  "home.features.tools.link": {
+    "message": "Pick a tool to start"
+  },
+  "home.features.tools.desc": {
+    "message": "Chat, writing, slides, images, video, research, translation — for every category we've picked 2–3 tools that are good enough, and we tell you straight who each one suits and how far the free tier goes. No more endless comparison."
+  },
+  "home.features.prompts.title": {
+    "message": "A prompt library you can copy straight away"
+  },
+  "home.features.prompts.link": {
+    "message": "Find your prompt"
+  },
+  "home.features.prompts.desc": {
+    "message": "Prompt templates organised by job and situation: emails, slides, meeting notes, reports, lesson prep, job hunting. Each one comes with \"how to make it yours\" — copy, paste, done."
+  },
+  "home.features.workflows.title": {
+    "message": "From one-off questions to workflows"
+  },
+  "home.features.workflows.link": {
+    "message": "Make AI a coworker"
+  },
+  "home.features.workflows.desc": {
+    "message": "Learn to hand repetitive work to AI: file organisation, data consolidation, weekly report automation. Get to know agents, knowledge bases (RAG) and automation tools, and build your own flow without writing code."
+  },
+  "home.features.basics.title": {
+    "message": "AI basics that actually make sense"
+  },
+  "home.features.basics.link": {
+    "message": "Get the idea in 3 minutes"
+  },
+  "home.features.basics.desc": {
+    "message": "What is a large language model? Why does AI state wrong things so confidently? What do context, tokens and hallucination really mean? Explained with everyday analogies, no math."
+  },
+  "home.features.useCases.title": {
+    "message": "Real use cases at work and at home"
+  },
+  "home.features.useCases.link": {
+    "message": "Find your job"
+  },
+  "home.features.useCases.desc": {
+    "message": "Marketing, HR, admin, sales, teachers, students, parents, freelancers — every role gets a list of AI uses you can apply today, with real examples."
+  },
+  "home.features.safety.title": {
+    "message": "Safety, privacy and judgment"
+  },
+  "home.features.safety.link": {
+    "message": "Protect yourself first"
+  },
+  "home.features.safety.desc": {
+    "message": "What should never be pasted into AI? How do you verify its answers? What to watch for when using it inside a company? Know the risks and you can rely on it for the long run."
+  },
+  "home.posts.badge": {
+    "message": "Latest posts"
+  },
+  "home.posts.title": {
+    "message": "Featured reading"
+  },
+  "home.posts.subtitle": {
+    "message": "Every post starts from a problem you'll actually run into, and ends with something you can try"
+  },
+  "home.posts.readMore": {
+    "message": "Read more"
+  },
+  "home.posts.viewAll": {
+    "message": "View all posts"
+  },
+  "home.posts.tag.basics": {
+    "message": "AI basics"
+  },
+  "home.posts.tag.prompts": {
+    "message": "Prompts"
+  },
+  "home.posts.tag.tools": {
+    "message": "AI tools"
+  },
+  "home.posts.tag.safety": {
+    "message": "Safety & judgment"
+  },
+  "home.posts.generativeAi.title": {
+    "message": "What is generative AI? A 10-minute intro for complete beginners"
+  },
+  "home.posts.generativeAi.excerpt": {
+    "message": "No math and no code — just analogies you'll understand for how large language models work, what they're good at, and why they get things wrong. After this you'll know how to talk to AI."
+  },
+  "home.posts.goodPrompt.title": {
+    "message": "6 principles for writing good prompts (with copy-ready templates)"
+  },
+  "home.posts.goodPrompt.excerpt": {
+    "message": "Same question, so why do other people get great answers while you get waffle? Six principles covering role, context, format and examples, so AI gives you what you want the first time."
+  },
+  "home.posts.comparison.title": {
+    "message": "ChatGPT, Claude or Gemini — which should you pick? A practical 2026 comparison"
+  },
+  "home.posts.comparison.excerpt": {
+    "message": "The three big assistants each have their own temperament. This post sorts them by what you actually do: writing, long documents, research, slides, coding — who to use for what, and whether the free tier is enough."
+  },
+  "home.posts.hallucination.title": {
+    "message": "Why does AI state wrong things so confidently? Spotting hallucinations and checking facts"
+  },
+  "home.posts.hallucination.excerpt": {
+    "message": "The legal clauses, figures and citations AI gives you can be entirely made up. Understand where hallucinations come from and build a 30-second checking routine, so you can move fast and still trust the result."
+  },
+  "start.meta.title": {
+    "message": "Getting Started"
+  },
+  "start.meta.description": {
+    "message": "No technical background? No problem. Run through five steps in 20 minutes and let AI finish your first real task today."
+  },
+  "start.hero.badge": {
+    "message": "Getting started"
+  },
+  "start.hero.title": {
+    "message": "20 minutes to your first real AI task"
+  },
+  "start.hero.lead": {
+    "message": "This page doesn't explain theory, it gets you doing. Finish the five steps and you'll have a result you can actually use, plus a method you can reuse. No programming needed."
+  },
+  "start.steps.title": {
+    "message": "Five steps"
+  },
+  "start.steps.lead": {
+    "message": "Do them in order. None of them is long, and you can stop to try things out at any point."
+  },
+  "start.faq.title": {
+    "message": "Beginner FAQ"
+  },
+  "start.faq.lead": {
+    "message": "We get asked these a lot, so here are the answers up front."
+  },
+  "start.cta.title": {
+    "message": "Finished all five steps? Next stop: the learning roadmap"
+  },
+  "start.cta.text": {
+    "message": "The roadmap tells you what to learn in each of the next three stages and what counts as done, so you don't get lost in an endless stream of tutorials."
+  },
+  "start.cta.primary": {
+    "message": "View the learning roadmap"
+  },
+  "start.cta.secondary": {
+    "message": "Browse the resources"
+  },
+  "start.step1.title": {
+    "message": "Pick one main AI assistant — just one"
+  },
+  "start.step1.meta": {
+    "message": "About 5 minutes"
+  },
+  "start.step1.p1": {
+    "message": "The most common beginner trap is opening five AI accounts, using each one a little and knowing none of them well. Pick one as your main tool and stick with it for two full weeks."
+  },
+  "start.step1.li1": {
+    "message": "Want the most general-purpose option with the richest ecosystem → pick ChatGPT"
+  },
+  "start.step1.li2": {
+    "message": "Often read long documents, write long pieces, care about a natural tone → pick Claude"
+  },
+  "start.step1.li3": {
+    "message": "Already live in Gmail / Google Docs → pick Gemini"
+  },
+  "start.step1.p2": {
+    "message": "All three have free tiers, which are plenty while you're starting out. For a detailed comparison, see the {link}."
+  },
+  "start.step1.p2.link": {
+    "message": "AI tool guide"
+  },
+  "start.step2.title": {
+    "message": "Draw your safety line first"
+  },
+  "start.step2.meta": {
+    "message": "About 3 minutes"
+  },
+  "start.step2.p1": {
+    "message": "Before you paste your first piece of text, remember this rule: "
+  },
+  "start.step2.p1.strong": {
+    "message": "if you wouldn't want a colleague to see it, don't paste it into AI."
+  },
+  "start.step2.li1": {
+    "message": "ID numbers, bank accounts, medical records, passwords: never paste them"
+  },
+  "start.step2.li2": {
+    "message": "Customer lists, unpublished quotes, internal documents: check your company policy first"
+  },
+  "start.step2.li3": {
+    "message": "If you must paste something, replace names with placeholders such as \"Person A\" or \"Company A\""
+  },
+  "start.step2.p2": {
+    "message": "The full explanation is in {link}."
+  },
+  "start.step2.p2.link": {
+    "message": "Safety, privacy and judgment"
+  },
+  "start.step3.title": {
+    "message": "Use one formula to get your first good answer"
+  },
+  "start.step3.meta": {
+    "message": "About 7 minutes"
+  },
+  "start.step3.p1": {
+    "message": "Stop typing just \"write me an email\". Use this four-part formula and the quality of your answers changes immediately:"
+  },
+  "start.step3.formula.roleLabel": {
+    "message": "Role"
+  },
+  "start.step3.formula.role": {
+    "message": ": You are a marketing planner with ten years of experience."
+  },
+  "start.step3.formula.taskLabel": {
+    "message": "Task"
+  },
+  "start.step3.formula.task": {
+    "message": ": Write an outreach email proposing a collaboration."
+  },
+  "start.step3.formula.contextLabel": {
+    "message": "Context"
+  },
+  "start.step3.formula.context": {
+    "message": ": The recipient is the marketing manager of a coffee chain; we are a local roaster hoping to discuss a co-branded product. Our strengths are small-batch customisation and a local story."
+  },
+  "start.step3.formula.formatLabel": {
+    "message": "Format"
+  },
+  "start.step3.formula.format": {
+    "message": ": Under 300 words, conversational but professional, ending with two concrete proposals."
+  },
+  "start.step3.p2": {
+    "message": "Swap those four lines for your own situation, paste it into AI and see the difference. More techniques in the {link}."
+  },
+  "start.step3.p2.link": {
+    "message": "prompt library"
+  },
+  "start.step4.title": {
+    "message": "Pick one annoying weekly task and hand it to AI once"
+  },
+  "start.step4.meta": {
+    "message": "About 5 minutes"
+  },
+  "start.step4.p1": {
+    "message": "You don't learn AI by finishing tutorials, you learn it by finishing the first real task. Pick one of these now, then keep reading:"
+  },
+  "start.step4.li1": {
+    "message": "Turn a long meeting transcript into 5 conclusions and 3 action items"
+  },
+  "start.step4.li2": {
+    "message": "Take an email you're struggling with and ask AI for three versions in different tones"
+  },
+  "start.step4.li3": {
+    "message": "Take an English article you can't get through and ask AI for the key points as bullets"
+  },
+  "start.step4.li4": {
+    "message": "Take a pile of messy ideas and ask AI to organise them into a slide outline"
+  },
+  "start.step5.title": {
+    "message": "Make fact-checking a reflex"
+  },
+  "start.step5.meta": {
+    "message": "About 3 minutes"
+  },
+  "start.step5.p1": {
+    "message": "AI says wrong things in a very confident tone — that's called hallucination. Anything that affects a decision has to be checked:"
+  },
+  "start.step5.li1": {
+    "message": "Numbers, dates, legal clauses, prices → always verify from another source"
+  },
+  "start.step5.li2": {
+    "message": "Books, papers or URLs it cites → open them and confirm they exist"
+  },
+  "start.step5.li3": {
+    "message": "Ask it back: \"What is this claim based on? Could it be wrong?\""
+  },
+  "start.step5.p2": {
+    "message": "For the reasoning and the full process, see {link}."
+  },
+  "start.step5.p2.link": {
+    "message": "AI basics"
+  },
+  "start.faq1.q": {
+    "message": "I'm not good with computers at all — can I still learn this?"
+  },
+  "start.faq1.a": {
+    "message": "Yes. Everything here assumes you have no technical background and uses plain language. If you can type in a browser, you can start."
+  },
+  "start.faq2.q": {
+    "message": "Do I have to pay for a subscription?"
+  },
+  "start.faq2.a": {
+    "message": "No. Free tiers are plenty while you're starting out. Once you're using AI every day and clearly hitting the limits, then it's worth paying."
+  },
+  "start.faq3.q": {
+    "message": "Will AI take my job?"
+  },
+  "start.faq3.a": {
+    "message": "A more realistic way to put it: people who use AI well will pull ahead. Rather than worrying about it, become one of them — that's exactly why this site exists."
+  },
+  "start.faq4.q": {
+    "message": "Do I need to learn to code?"
+  },
+  "start.faq4.a": {
+    "message": "No. The main path here needs no programming background at all. If you later want to build small tools, just read the vibe coding chapter."
+  },
+  "start.faq5.q": {
+    "message": "How much time does this take each day?"
+  },
+  "start.faq5.a": {
+    "message": "Fifteen minutes a day, and in two weeks you'll notice the difference. The key is using AI on real work rather than setting aside extra time to \"study AI\"."
+  },
+  "roadmap.meta.title": {
+    "message": "Learning Roadmap"
+  },
+  "roadmap.meta.description": {
+    "message": "KD AI Hub's three-stage AI self-learning roadmap: build the concepts, work AI into your daily job, then assemble your own automated workflows. Each stage has clear items and completion criteria."
+  },
+  "roadmap.hero.badge": {
+    "message": "Learning roadmap"
+  },
+  "roadmap.hero.title": {
+    "message": "Three stages to turn AI into a real work skill"
+  },
+  "roadmap.hero.lead": {
+    "message": "There's no shortage of AI tutorials online — the problem was never the resources, it's the order. This roadmap sets the order for you: what to learn at each stage, what counts as done, and where to go next."
+  },
+  "roadmap.stage.heading": {
+    "message": "Stage {n}: {title}"
+  },
+  "roadmap.stage.goalLabel": {
+    "message": "Goal of this stage: "
+  },
+  "roadmap.stage.learnLabel": {
+    "message": "What you'll learn"
+  },
+  "roadmap.stage.doneLabel": {
+    "message": "What counts as done"
+  },
+  "roadmap.principles.title": {
+    "message": "Four principles for the journey"
+  },
+  "roadmap.principles.lead": {
+    "message": "Whatever stage you're at, these four apply."
+  },
+  "roadmap.cta.title": {
+    "message": "Not sure which stage you're in?"
+  },
+  "roadmap.cta.text": {
+    "message": "If you haven't yet finished one real piece of work with AI, start at stage 1. If you already use it every day but don't feel any faster, what you need is stage 2: prompts and picking the right tool."
+  },
+  "roadmap.cta.primary": {
+    "message": "Start with Getting Started"
+  },
+  "roadmap.cta.secondary": {
+    "message": "Browse all resources"
+  },
+  "roadmap.stage1.title": {
+    "message": "Understand it, dare to ask"
+  },
+  "roadmap.stage1.meta": {
+    "message": "Weeks 1–2 · 15 minutes a day"
+  },
+  "roadmap.stage1.goal": {
+    "message": "Build an accurate mental model: know what AI can and cannot do, and feel comfortable asking."
+  },
+  "roadmap.stage1.learn1": {
+    "message": "What large language models actually do (with analogies, no math)"
+  },
+  "roadmap.stage1.learn2": {
+    "message": "Why AI states wrong things so confidently: where hallucinations come from"
+  },
+  "roadmap.stage1.learn3": {
+    "message": "What tokens, context and the conversation window really mean"
+  },
+  "roadmap.stage1.learn4": {
+    "message": "The four-part prompt: role × task × context × format"
+  },
+  "roadmap.stage1.learn5": {
+    "message": "Your data safety line: what should never be pasted into AI"
+  },
+  "roadmap.stage1.done1": {
+    "message": "You can explain \"why AI gets things wrong\" to a colleague in your own words"
+  },
+  "roadmap.stage1.done2": {
+    "message": "You can turn a vague request into a clear task description"
+  },
+  "roadmap.stage1.done3": {
+    "message": "You instinctively verify any figure or legal clause AI gives you"
+  },
+  "roadmap.stage1.link1": {
+    "message": "Getting started: 20 minutes to your first win"
+  },
+  "roadmap.stage1.link2": {
+    "message": "AI basics"
+  },
+  "roadmap.stage1.link3": {
+    "message": "Safety, privacy and judgment"
+  },
+  "roadmap.stage2.title": {
+    "message": "Use it fluently, save real time"
+  },
+  "roadmap.stage2.meta": {
+    "message": "Weeks 3–8 · 15–30 minutes a day"
+  },
+  "roadmap.stage2.goal": {
+    "message": "Put AI into the work you actually do every day, so the time you save is visible and easy to explain."
+  },
+  "roadmap.stage2.learn1": {
+    "message": "Build 5–10 prompt templates tailored to your own job"
+  },
+  "roadmap.stage2.learn2": {
+    "message": "Pick the right tool: writing, slides, images, video, research"
+  },
+  "roadmap.stage2.learn3": {
+    "message": "Handle files and long documents: summarise, compare, pull out what matters"
+  },
+  "roadmap.stage2.learn4": {
+    "message": "Organise information into tables, outlines and action lists"
+  },
+  "roadmap.stage2.learn5": {
+    "message": "Judgment: which tasks to hand to AI and which you must do yourself"
+  },
+  "roadmap.stage2.done1": {
+    "message": "You have your own prompt notes you can copy straight into similar work"
+  },
+  "roadmap.stage2.done2": {
+    "message": "At least two weekly routines now take less than half the time"
+  },
+  "roadmap.stage2.done3": {
+    "message": "You can clearly explain \"why I don't hand this task to AI\""
+  },
+  "roadmap.stage2.link1": {
+    "message": "Prompt library"
+  },
+  "roadmap.stage2.link2": {
+    "message": "AI tool guide"
+  },
+  "roadmap.stage2.link3": {
+    "message": "Work and life use cases"
+  },
+  "roadmap.stage3.title": {
+    "message": "Build workflows, scale your output"
+  },
+  "roadmap.stage3.meta": {
+    "message": "Week 9 onwards · project by project"
+  },
+  "roadmap.stage3.goal": {
+    "message": "Go from asking one question at a time to a whole workflow that runs itself, and bring your team along."
+  },
+  "roadmap.stage3.learn1": {
+    "message": "Build a personal or team knowledge base so AI answers from your own material (the idea behind RAG)"
+  },
+  "roadmap.stage3.learn2": {
+    "message": "Get to know AI agents: when to let AI run several steps on its own"
+  },
+  "roadmap.stage3.learn3": {
+    "message": "Connect automation tools: turn repetitive work into scheduled jobs"
+  },
+  "roadmap.stage3.learn4": {
+    "message": "Build small tools without coding: an intro to vibe coding"
+  },
+  "roadmap.stage3.learn5": {
+    "message": "Roll it out to your team: usage guidelines, shared prompts, training"
+  },
+  "roadmap.stage3.done1": {
+    "message": "You have a workflow that runs every week without you re-prompting it"
+  },
+  "roadmap.stage3.done2": {
+    "message": "You've built a small tool or automation script you actually use"
+  },
+  "roadmap.stage3.done3": {
+    "message": "You can design AI usage guidelines and a prompt library for your team"
+  },
+  "roadmap.stage3.link1": {
+    "message": "Workflows and automation"
+  },
+  "roadmap.stage3.link2": {
+    "message": "Intro to vibe coding"
+  },
+  "roadmap.stage3.link3": {
+    "message": "Glossary"
+  },
+  "roadmap.principle1.title": {
+    "message": "Start with real work"
+  },
+  "roadmap.principle1.text": {
+    "message": "Don't learn AI for its own sake. Pick something you already have to do this week and try it with AI — that's what makes the learning stick."
+  },
+  "roadmap.principle2.title": {
+    "message": "Change one variable at a time"
+  },
+  "roadmap.principle2.text": {
+    "message": "Switch tools, models or phrasing one at a time. Otherwise you'll never know which change made the result better."
+  },
+  "roadmap.principle3.title": {
+    "message": "Save the prompts that work"
+  },
+  "roadmap.principle3.text": {
+    "message": "When you get a great answer, save that prompt to your notes right away. Three months later those notes beat any tutorial."
+  },
+  "roadmap.principle4.title": {
+    "message": "Always keep the final call"
+  },
+  "roadmap.principle4.text": {
+    "message": "AI handles drafts and speed; you handle facts and responsibility. Your name is on it, so verifying is your job too."
+  }
+}

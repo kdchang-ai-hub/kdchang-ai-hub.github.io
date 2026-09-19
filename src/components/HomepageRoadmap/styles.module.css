@@ -1,0 +1,177 @@
+/* =====================================================
+   ROADMAP — three-stage learning path
+   ===================================================== */
+.roadmap {
+  padding: 4.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.sectionEyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.45rem, 2.6vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+}
+
+.sectionSubtitle {
+  color: var(--text-secondary);
+  font-size: 0.96rem;
+  line-height: 1.75;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.stageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem;
+}
+
+.stageCard {
+  padding: 1.75rem 1.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.stageCard:hover {
+  border-color: var(--border-strong);
+  background: var(--surface-hover);
+}
+
+.stageHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.9rem;
+}
+
+.stageStep {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--ifm-color-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.stageDuration {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.stageTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.45rem;
+}
+
+.stageSummary {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin-bottom: 1.1rem;
+}
+
+.stageList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+}
+
+.stageList li {
+  position: relative;
+  padding-left: 1.35rem;
+  margin-bottom: 0.55rem;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.7;
+}
+
+/* CSS-drawn check mark keeps the list free of emoji */
+.stageList li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.55em;
+  width: 9px;
+  height: 5px;
+  border-left: 1.5px solid var(--ifm-color-primary);
+  border-bottom: 1.5px solid var(--ifm-color-primary);
+  transform: rotate(-45deg);
+}
+
+.stageLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.stageLink:hover {
+  color: var(--ifm-color-primary-light);
+  text-decoration: none;
+}
+
+.roadmapFooter {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.roadmapBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1.35rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.roadmapBtn:hover {
+  background: var(--surface);
+  border-color: var(--text-muted);
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap {
+    padding: 3.5rem 0;
+  }
+
+  .stageCard {
+    padding: 1.5rem 1.35rem;
+  }
+}

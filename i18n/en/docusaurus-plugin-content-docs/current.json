@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.resourceSidebar.category.AI 基礎觀念": {
+    "message": "AI Basics",
+    "description": "The label for category 'AI 基礎觀念' in sidebar 'resourceSidebar'"
+  },
+  "sidebar.resourceSidebar.category.AI 工具圖鑑": {
+    "message": "AI Tool Guide",
+    "description": "The label for category 'AI 工具圖鑑' in sidebar 'resourceSidebar'"
+  },
+  "sidebar.resourceSidebar.category.提示詞庫": {
+    "message": "Prompt Library",
+    "description": "The label for category '提示詞庫' in sidebar 'resourceSidebar'"
+  }
+}

@@ -1,0 +1,157 @@
+/* =====================================================
+   HERO
+   ===================================================== */
+.heroBanner {
+  padding: 6rem 1.5rem 4.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.heroContent {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.heroEyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 2.85rem);
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.heroSubtitle {
+  font-size: clamp(0.98rem, 1.6vw, 1.1rem);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin: 0 auto 2.25rem;
+  max-width: 620px;
+}
+
+/* =====================================================
+   BUTTONS
+   ===================================================== */
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1.35rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.primaryBtn {
+  background: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+  color: #08110f !important;
+}
+
+.primaryBtn:hover {
+  background: var(--ifm-color-primary-light);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.secondaryBtn {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary) !important;
+}
+
+.secondaryBtn:hover {
+  background: var(--surface);
+  border-color: var(--text-muted);
+  color: var(--text-primary) !important;
+}
+
+/* =====================================================
+   CLOSING CTA
+   ===================================================== */
+.ctaSection {
+  padding: 0 0 5rem;
+}
+
+.ctaWrapper {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 2.75rem 2rem;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.ctaEyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.9rem;
+}
+
+.ctaTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+  margin-bottom: 0.65rem;
+}
+
+.ctaSubtitle {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 1.75rem;
+}
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+@media screen and (max-width: 640px) {
+  .heroBanner {
+    padding: 4rem 1.25rem 3rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    justify-content: center;
+  }
+
+  .ctaWrapper {
+    padding: 2rem 1.25rem;
+  }
+}

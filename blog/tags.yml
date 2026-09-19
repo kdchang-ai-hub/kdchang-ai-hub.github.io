@@ -1,0 +1,34 @@
+ai-basics:
+  label: AI 基礎
+  permalink: /ai-basics
+  description: 生成式 AI 的原理與基本觀念
+
+prompts:
+  label: 提示詞
+  permalink: /prompts
+  description: Prompt 寫法、模板與技巧
+
+ai-tools:
+  label: AI 工具
+  permalink: /ai-tools
+  description: AI 工具介紹、比較與挑選建議
+
+safety:
+  label: 安全與判斷
+  permalink: /safety
+  description: 資料安全、隱私保護與查證方法
+
+workplace:
+  label: 職場應用
+  permalink: /workplace
+  description: 把 AI 用在真實工作上的方法與案例
+
+beginner:
+  label: 新手入門
+  permalink: /beginner
+  description: 適合完全沒有基礎的讀者
+
+announcement:
+  label: 站務公告
+  permalink: /announcement
+  description: KD AI Hub 的公告與更新

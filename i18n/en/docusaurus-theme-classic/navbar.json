@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "KD AI Hub",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "KD AI Hub - The friendliest AI self-learning platform for everyone",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.新手起步": {
+    "message": "Get Started",
+    "description": "Navbar item with label 新手起步"
+  },
+  "item.label.學習地圖": {
+    "message": "Roadmap",
+    "description": "Navbar item with label 學習地圖"
+  },
+  "item.label.學習資源": {
+    "message": "Resources",
+    "description": "Navbar item with label 學習資源"
+  },
+  "item.label.最新文章": {
+    "message": "Blog",
+    "description": "Navbar item with label 最新文章"
+  },
+  "item.label.關於本站": {
+    "message": "About",
+    "description": "Navbar item with label 關於本站"
+  },
+  "item.label.HappyPrompt": {
+    "message": "HappyPrompt",
+    "description": "Navbar item with label HappyPrompt"
+  }
+}
