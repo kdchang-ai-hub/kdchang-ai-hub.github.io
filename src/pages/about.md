@@ -1,6 +1,6 @@
 ---
 title: 關於本站
-description: 認識 KD AI Hub：一個為沒有技術背景的人而寫的 AI 自學平台，讓每個人都能把 AI 用得很好
+description: 認識 KD AI Hub | AI 自學補給站：一個為沒有技術背景的人而寫的 AI 自學平台，讓每個人都能把 AI 用得很好
 image: https://ai.kdchang.com/img/icon-512.png
 ---
 
@@ -75,9 +75,9 @@ Hi，我是 **KD Chang 張凱迪**。從工程師、創業者、技術專案經�
 
 ## 內容授權與回饋
 
-本站內容為免費公開分享。如果對你有幫助，歡迎分享給需要的朋友。
+本站內容如果對你有幫助，歡迎分享給需要的朋友。
 
-發現錯誤、有想看的主題、或想合作，都歡迎來信：[kdchang.labs@gmail.com](mailto:kdchang.labs@gmail.com)
+發現錯誤、有想看的主題、或想合作，都[歡迎來信](mailto:kdchang.ai@gmail.com)
 
 :::note
 AI 領域變動很快，本站內容會持續更新。文中提到的工具功能與價格請以官方公告為準。

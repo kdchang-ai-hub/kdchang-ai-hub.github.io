@@ -74,7 +74,7 @@ I also run:
 
 The content here is shared freely and publicly. If it helps you, please pass it on to someone who needs it.
 
-Found a mistake, want to see a topic covered, or interested in working together? Email me: [kdchang.labs@gmail.com](mailto:kdchang.labs@gmail.com)
+Found a mistake, want to see a topic covered, or interested in working together? [Email me](mailto:kdchang.ai@gmail.com)
 
 :::note
 AI moves fast, and this site is updated continuously. For the tool features and pricing mentioned here, always check the official announcements.

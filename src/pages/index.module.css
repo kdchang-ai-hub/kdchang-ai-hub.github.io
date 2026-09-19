@@ -93,7 +93,9 @@
    CLOSING CTA
    ===================================================== */
 .ctaSection {
-  padding: 0 0 5rem;
+  /* Same top rhythm as the sections above, so the card is not flush against
+     the divider of the previous section. */
+  padding: 4.5rem 0 5rem;
 }
 
 .ctaWrapper {
@@ -149,6 +151,10 @@
   .primaryBtn,
   .secondaryBtn {
     justify-content: center;
+  }
+
+  .ctaSection {
+    padding: 3.5rem 0 4rem;
   }
 
   .ctaWrapper {

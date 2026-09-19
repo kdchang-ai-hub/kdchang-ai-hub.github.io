@@ -156,10 +156,6 @@ const config: Config = {
           label: "HappyPrompt",
           position: "right",
         },
-        {
-          type: "localeDropdown",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -188,7 +184,7 @@ const config: Config = {
           items: [
             { label: "關於本站", to: "/about" },
             { label: "隱私權政策", to: "/privacy" },
-            { label: "Contact Us", to: "mailto:kdchang.labs@gmail.com" },
+            { label: "Contact Us", to: "mailto:kdchang.ai@gmail.com" },
             { label: "KD LABs", href: "https://labs.kdchang.com" },
           ],
         },

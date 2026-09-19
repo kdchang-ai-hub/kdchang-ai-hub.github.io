@@ -176,5 +176,5 @@ AI 花數分鐘到數十分鐘，自行搜尋多個來源後產出有引用的�
 ---
 
 :::tip 找不到你要的詞？
-歡迎來信告訴我們：[kdchang.labs@gmail.com](mailto:kdchang.labs@gmail.com)，我們會補上。
+歡迎[歡迎來信](mailto:kdchang.ai@gmail.com)，我們會陸續補上。
 :::

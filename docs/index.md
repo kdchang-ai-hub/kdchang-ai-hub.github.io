@@ -92,5 +92,5 @@ tags:
 
 :::note 內容會持續更新
 AI 領域變動很快。本站內容會持續調整，文中提到的工具功能與價格請以官方公告為準。
-發現錯誤或有想看的主題，歡迎來信 [kdchang.labs@gmail.com](mailto:kdchang.labs@gmail.com)。
+發現錯誤或有想看的主題，[歡迎來信](mailto:kdchang.ai@gmail.com)。
 :::

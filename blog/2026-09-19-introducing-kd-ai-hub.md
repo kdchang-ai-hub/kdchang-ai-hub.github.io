@@ -83,6 +83,6 @@ AI 會出錯、會編造、有些事不該交給它做。
 ---
 
 內容會持續更新。有想看的主題、發現錯誤，或單純想聊聊，
-歡迎來信 [kdchang.labs@gmail.com](mailto:kdchang.labs@gmail.com)。
+[歡迎來信](mailto:kdchang.ai@gmail.com)。
 
 讓我們一起把 AI 用得更好。

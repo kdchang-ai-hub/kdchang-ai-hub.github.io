@@ -638,5 +638,9 @@
   "navbar.search.label": {
     "message": "Search",
     "description": "The label of the navbar search button"
+  },
+  "footer.language.label": {
+    "message": "Language",
+    "description": "The accessible label of the footer language switcher"
   }
 }

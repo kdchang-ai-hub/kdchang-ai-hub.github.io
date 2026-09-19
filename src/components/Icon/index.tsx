@@ -22,7 +22,8 @@ export type IconName =
   | "flag"
   | "sliders"
   | "bookmark"
-  | "search";
+  | "search"
+  | "chevronDown";
 
 const shapes: Record<IconName, ReactNode> = {
   compass: (
@@ -122,6 +123,7 @@ const shapes: Record<IconName, ReactNode> = {
       <path d="m16.5 16.5 4.5 4.5" />
     </>
   ),
+  chevronDown: <path d="m6 9.5 6 6 6-6" />,
 };
 
 type IconProps = Omit<SVGProps<SVGSVGElement>, "name"> & {
