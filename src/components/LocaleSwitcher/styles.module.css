@@ -1,7 +1,6 @@
 .wrapper {
   position: relative;
   display: inline-block;
-  margin-bottom: 1rem;
 }
 
 .toggle {
@@ -34,12 +33,10 @@
   transform: rotate(180deg);
 }
 
-/* Opens upwards: the switcher sits at the bottom of the page */
 .menu {
   position: absolute;
-  bottom: calc(100% + 6px);
-  left: 50%;
-  transform: translateX(-50%);
+  top: calc(100% + 6px);
+  left: 0;
   z-index: 2;
   min-width: 100%;
   margin: 0;

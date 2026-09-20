@@ -7,8 +7,7 @@ import Icon from "@site/src/components/Icon";
 import styles from "./styles.module.css";
 
 /**
- * Language switcher for the footer: a button that opens the list of locales
- * upwards (it sits at the bottom of the page).
+ * Language selector, rendered as the last column of the footer.
  *
  * The URL of the same page in another locale is built by stripping every known
  * locale prefix off the current path and prepending the target locale's base
