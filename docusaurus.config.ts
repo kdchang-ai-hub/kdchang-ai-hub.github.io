@@ -137,7 +137,7 @@ const config: Config = {
     navbar: {
       title: "KD AI Hub | AI 自學補給站",
       logo: {
-        alt: "KD AI Hub | AI 自學補給站 - 最新手友善的 AI 自學平台 Logo",
+        alt: "KD AI Hub | AI 自學補給站 - 最溫馨有趣的 AI 自學社群平台 Logo",
         src: "img/icon-512.png",
       },
       items: [

@@ -16,7 +16,7 @@ function HomepageHeader() {
     <header className={styles.heroBanner}>
       <div className={styles.heroContent}>
         <span className={styles.heroEyebrow}>
-          <Translate id="home.hero.badge">最新手友善的 AI 自學平台</Translate>
+          <Translate id="home.hero.badge">最溫馨有趣的 AI 自學社群平台</Translate>
         </span>
 
         <h1 className={styles.heroTitle}>
