@@ -1,10 +1,10 @@
 ---
 title: About
-description: Meet KD AI Hub — an AI self-learning platform written for people without a technical background, so anyone can get really good at using AI
+description: Meet AI Learning Station — an AI self-learning platform written for people without a technical background, so anyone can get really good at using AI
 image: https://ai.kdchang.com/img/icon-512.png
 ---
 
-# About KD AI Hub
+# About AI Learning Station
 
 > You don't need to code to get really good at AI.
 
@@ -17,7 +17,7 @@ Over the past two years, AI tools have improved far faster than most people can 
 - Plenty of prompt articles, but copying them rarely fits your actual situation
 - Explanations of how it works are either too shallow (slogans) or too deep (straight to the papers)
 
-**That gap is what KD AI Hub is here to fill.** We've reorganised AI learning into a single path: build concepts you can actually follow, pick the right tools, work AI into what you really do every day, and only then move on to automation and advanced use.
+**That gap is what AI Learning Station is here to fill.** We've reorganised AI learning into a single path: build concepts you can actually follow, pick the right tools, work AI into what you really do every day, and only then move on to automation and advanced use.
 
 ---
 

@@ -282,7 +282,7 @@ export default function Roadmap(): ReactNode {
       description={translate({
         id: "roadmap.meta.description",
         message:
-          "KD AI Hub 三階段 AI 自學地圖：從建立觀念、融入日常工作，到組出自己的自動化流程，每階段都有明確的學習項目與過關標準。",
+          "AI 自學補給站三階段 AI 自學地圖：從建立觀念、融入日常工作，到組出自己的自動化流程，每階段都有明確的學習項目與過關標準。",
       })}
     >
       <header className={styles.pageHero}>

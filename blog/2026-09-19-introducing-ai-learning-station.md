@@ -1,11 +1,11 @@
 ---
-slug: introducing-kd-ai-hub
-title: 為什麼要做 KD AI Hub：一個為非工程師而寫的 AI 自學平台
-description: AI 教學不缺，缺的是順序與翻譯。KD AI Hub 想把 AI 學習整理成一條給非工程師走的路。
+slug: introducing-ai-learning-station
+title: 為什麼要做 AI 自學補給站：一個為非工程師而寫的 AI 自學平台
+description: AI 教學不缺，缺的是順序與翻譯。AI 自學補給站想把 AI 學習整理成一條給非工程師走的路。
 authors: [kdchang]
 tags: [announcement, beginner]
 date: 2026-09-19
-keywords: [KD AI Hub, AI 自學, AI 學習平台]
+keywords: [AI 自學補給站, AI Learning Station, AI 自學, AI 學習平台]
 ---
 
 > 「AI 我知道很重要，但我到底該從哪裡開始？」
@@ -31,7 +31,7 @@ keywords: [KD AI Hub, AI 自學, AI 學習平台]
 **第四，講原理的內容不是太淺就是太深。** 要嘛只是喊「AI 很厲害要趕快學」，
 要嘛直接丟論文。中間那一段——「用一般人聽得懂的方式解釋它為什麼會這樣回答」——很少有人寫。
 
-## KD AI Hub 想補的就是這一段
+## AI 自學補給站想補的就是這一段
 
 這個站的設計只有一個目標：**讓一個完全沒有技術背景的人，有一條清楚的路可以走。**
 

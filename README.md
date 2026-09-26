@@ -1,3 +1,3 @@
-# KD AI Hub — the friendliest AI self-learning platform for everyone
+# AI 自學補給站 | AI Learning Station
 
 > You don't need to code to get really good at AI.

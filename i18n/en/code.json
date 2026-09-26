@@ -9,7 +9,7 @@
     "message": "to get really good at AI"
   },
   "home.hero.subtitle": {
-    "message": "KD AI Hub reorganises AI for people with no technical background: from core concepts and choosing tools to prompt templates and workflow automation. Follow the roadmap and turn AI into an everyday tool, one step at a time."
+    "message": "AI Learning Station reorganises AI for people with no technical background: from core concepts and choosing tools to prompt templates and workflow automation. Follow the roadmap and turn AI into an everyday tool, one step at a time."
   },
   "home.hero.cta.primary": {
     "message": "I'm new — start here"
@@ -444,7 +444,7 @@
     "message": "Learning Roadmap"
   },
   "roadmap.meta.description": {
-    "message": "KD AI Hub's three-stage AI self-learning roadmap: build the concepts, work AI into your daily job, then assemble your own automated workflows. Each stage has clear items and completion criteria."
+    "message": "AI Learning Station's three-stage AI self-learning roadmap: build the concepts, work AI into your daily job, then assemble your own automated workflows. Each stage has clear items and completion criteria."
   },
   "roadmap.hero.badge": {
     "message": "Learning roadmap"

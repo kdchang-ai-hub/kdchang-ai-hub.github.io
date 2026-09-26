@@ -1,10 +1,10 @@
 ---
 title: 關於本站
-description: 認識 KD AI Hub | AI 自學補給站：一個為沒有技術背景的人而寫的 AI 自學平台，讓每個人都能把 AI 用得很好
+description: 認識 AI 自學補給站 | AI Learning Station：一個為沒有技術背景的人而寫的 AI 自學平台，讓每個人都能把 AI 用得很好
 image: https://ai.kdchang.com/img/icon-512.png
 ---
 
-# 關於 KD AI Hub | AI 自學補給站
+# 關於 AI 自學補給站 | AI Learning Station
 
 > 不用程式背景，也能把 AI 用得很好。
 
@@ -17,7 +17,7 @@ image: https://ai.kdchang.com/img/icon-512.png
 - 提示詞文章很多，但複製過來常常不適用於你的情境
 - 講原理的內容不是太淺（只喊口號），就是太深（直接上論文）
 
-**KD AI Hub | AI 自學補給站想補的就是這一段。** 我們把 AI 學習重新整理成一條路：先建立看得懂的觀念，再選對工具，
+**AI 自學補給站 | AI Learning Station 想補的就是這一段。** 我們把 AI 學習重新整理成一條路：先建立看得懂的觀念，再選對工具，
 接著把 AI 塞進你每天真正在做的事，最後才是自動化與進階應用。
 
 ---
